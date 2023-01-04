@@ -4,11 +4,13 @@ import './error.css'
 
 function error() {
   return (
-    <section>
-        <h2>Error 404</h2>
-        <p>Strona nie została znaleziona</p>
-        <Link to='/'>Powrót na stronę główna</Link>
-    </section>
+    <div class='section-wrap'>
+      <section>
+          <h2>Error 404</h2>
+          <p>Strona nie została znaleziona</p>
+          <Link to='/'>Powrót na stronę główna</Link>
+      </section>
+    </div>
   )
 }
 

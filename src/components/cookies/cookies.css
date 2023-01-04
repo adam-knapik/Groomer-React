@@ -1,0 +1,9 @@
+.cookies-message {
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    color: var(--color-white);
+    background-color: var(--color-primary);
+    border-radius: 2.5rem;
+    padding: 20px;
+}

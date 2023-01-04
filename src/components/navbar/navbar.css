@@ -37,7 +37,7 @@ nav {
 }
 
 .nav-link.active {
-    text-decoration: underline;
+    text-decoration: solid underline 3px;
 }
 
 .nav-mobile {
@@ -62,12 +62,14 @@ nav {
         width: 100%;
         display: grid;
         position: absolute;
+        align-items: center;
         justify-content: center;
         text-align: center;
         background-color: var(--color-bg-variant);
         left: -100%;
         top: 8vh;
         transition: all 0.5s ease-out;
+        z-index: 7;
     }
 
     .nav-links.active {

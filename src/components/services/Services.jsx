@@ -2,7 +2,11 @@ import React from 'react'
 
 function Services() {
   return (
-    <div>Services</div>
+    <div className='section-wrap'>
+      <section>
+        Services
+      </section>
+    </div>
   )
 }
 

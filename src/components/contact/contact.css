@@ -1,0 +1,78 @@
+.contact-info a:hover {
+    color: var(--color-black);
+}
+
+.form-template {
+    width: 100%;
+}
+
+.form-template form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    place-items: center;
+}
+
+input, 
+textarea {
+    width: 100%;
+    padding: 1.5rem;
+    border: 2px solid var(--color-primary);
+    border-radius: 0.5rem;
+    resize: none;
+}
+
+.swal-modal {
+    background: var(--color-bg);
+    border: 2px solid var(--color-primary-variatn);
+}
+.swal-title,
+.swal-text {
+    color: var(--color-white);
+}
+
+.swal-icon--success:before,
+.swal-icon--success:after,
+.swal-icon--success__hide-corners {
+    background: none !important;
+}
+
+.swal-icon--success__line {
+    background-color: #00ff00;
+}
+
+.swal-icon--success__ring {
+    border-color: #00ff00;
+}
+.swal-icon--error {
+    border-color: #ff0000;
+}
+
+.swal-icon--error__line {
+    background-color: #ff0000;
+}
+
+.swal-button {
+    background: var(--color-primary);
+    color: var(--color-bg);
+}
+
+.swal-button:not([disable]):hover {
+    background: var(--color-white);
+    color: var(--color-bg);
+    border-color: transparent;
+}
+
+.map-location {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+.map-location iframe {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

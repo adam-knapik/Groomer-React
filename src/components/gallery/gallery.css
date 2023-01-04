@@ -1,0 +1,21 @@
+.youtube-video {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+.youtube-video iframe {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.gallery-items img {
+    width: 100%;
+    margin-top: 5rem;
+}
+
+
+

@@ -1,0 +1,6 @@
+.list-terms {
+    text-align: left;
+}
+.list-terms li {
+    list-style-type: square;
+}
