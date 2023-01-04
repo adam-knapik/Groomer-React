@@ -1,0 +1,31 @@
+footer {
+    min-height: 24vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--color-bg-variant);
+    text-align: center;
+}
+
+.footer-logo {
+    display: inline-block;
+    font-size: 2em;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.footer-permalinks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.footer-socials {
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    gap: 1rem;
+    margin-top: 1rem;
+}
